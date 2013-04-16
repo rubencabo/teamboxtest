@@ -11,7 +11,7 @@
  
       // Helper Teambox function to render content to the main area
       Teambox.helpers.views.renderContent(
-        "<iframe src='http://asesoriaaurea.es/' style='width:100%;height:100%'></iframe>",
+        "<p>Hola teambox</p>",
         "Aurea"
       );
     }
