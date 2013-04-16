@@ -12,7 +12,7 @@
       // Helper Teambox function to render content to the main area
       Teambox.helpers.views.renderContent(
         "<iframe src='http://asesoriaaurea.es/' style='width:100%;height:100%'></iframe>",
-        "Breadfish"
+        "Aurea"
       );
     }
   });
@@ -24,7 +24,7 @@
       this.controller = new Teambox.Apps.BreadFish.Controller();
  
       // Add an element to the Apps section in the sidebar
-      Teambox.views.sidebar.apps_list.addApp("breadfish", "Aurea", "#!/breadfish", "star");
+      Teambox.views.sidebar.apps_list.addApp("aurea", "Aurea", "#!/breadfish", "star");
     }
   });
  
