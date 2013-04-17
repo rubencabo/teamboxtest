@@ -4,10 +4,10 @@
  
   // Router to handle paths (in this case, /#!/breadfish) with regular links
   Teambox.Apps.BreadFish.Controller = Teambox.Controllers.BaseController.extend({
-    routes: { '!/breadfish'  : 'index' },
+    routes: { '!/aurea'  : 'index' },
     index: function () {
       // Helper Teambox function to highlight the sidebar
-      Teambox.Views.Sidebar.highlightSidebar('breadfish_link');
+      Teambox.Views.Sidebar.highlightSidebar('aurea_link');
  
       // Helper Teambox function to render content to the main area
       Teambox.helpers.views.renderContent(
@@ -24,7 +24,7 @@
       this.controller = new Teambox.Apps.BreadFish.Controller();
  
       // Add an element to the Apps section in the sidebar
-      Teambox.views.sidebar.apps_list.addApp("aurea", "Aurea", "#!/breadfish", "star");
+      Teambox.views.sidebar.apps_list.addApp("aurea", "Aurea", "#!/aurea", "moon");
     }
   });
  
