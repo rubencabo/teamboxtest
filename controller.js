@@ -24,7 +24,7 @@
       this.controller = new Teambox.Apps.BreadFish.Controller();
  
       // Add an element to the Apps section in the sidebar
-      Teambox.views.sidebar.apps_list.addApp("aurea", "Aurea", "#!/aurea", "moon");
+      Teambox.views.sidebar.apps_list.addApp("aurea", "Aurea", "#!/aurea", "star");
     }
   });
  
